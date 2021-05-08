@@ -14,6 +14,9 @@ namespace Pais.Models
         public string Capital { get; set; }
         public double Population { get; set; }
         public string Timezones { get; set; }
+        public Currency Currency { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime BirthDay { get; set; }
     }
 }
